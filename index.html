@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simulador de Compras</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Simulador de Compras en un Kiosco</h1>
+
+    <form id="formAgregarProducto">
+        <input type="text" id="inputProducto" placeholder="Nombre del producto" required />
+        <button type="submit">Agregar al carrito</button>
+    </form>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaProductos"></ul>
+        <p id="totalProductos">Total de productos: 0</p>
+    </section>
+
+    <p id="mensaje" class="mensaje"></p>
+
+    <button id="btnFinalizar">Finalizar Simulación</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

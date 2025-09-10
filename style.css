@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    background: linear-gradient(135deg, #e0f0ff, #a0c8ff);
+    color: #1a2a6c;
+}
+
+h1 {
+    color: #0d1a4b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+form {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+input[type="text"] {
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    width: 300px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #1e3c72;
+    outline: none;
+    box-shadow: 0 0 8px #1e3c72;
+}
+
+button {
+    padding: 0.6rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(74,144,226,0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e3c72;
+    box-shadow: 0 6px 10px rgba(30,60,114,0.6);
+}
+
+#carrito {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(26,42,108,0.15);
+    max-width: 450px;
+    margin: 0 auto 2rem auto;
+}
+
+#carrito h2 {
+    color: #0d1a4b;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#listaProductos li {
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid #d0e4ff;
+    font-size: 1.05rem;
+    color: #2c3e70;
+}
+
+#totalProductos {
+    font-weight: 700;
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #1a2a6c;
+    font-size: 1.2rem;
+}
+
+.mensaje {
+    color: #0d47a1;
+    font-weight: 700;
+    height: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#btnFinalizar {
+    display: block;
+    margin: 0 auto;
+    background-color: #2a52be;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 5px 15px rgba(42,82,190,0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btnFinalizar:hover {
+    background-color: #1b3a7a;
+    box-shadow: 0 7px 20px rgba(27,58,122,0.7);
+}
